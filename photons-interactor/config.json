@@ -1,0 +1,16 @@
+{
+  "name": "Photons Interactor",
+  "version": "0.8.5",
+  "slug": "photons_interactor",
+  "description": "Run the Photons Interactor Daemon",
+  "arch": [
+    "amd64",
+    "aarch64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "host_network": true,
+  "url": "https://photons.delfick.com/apps/interactor/docker.html",
+  "image": "delfick/lifx-photons-interactor-homeassistant"
+}
