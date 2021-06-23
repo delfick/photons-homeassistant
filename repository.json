@@ -1,4 +1,5 @@
 {
   "name": "Photons",
-  "url": "https://github.com/delfick/photons-homeassistant"
+  "url": "https://github.com/delfick/photons-homeassistant",
+  "maintainer": "Delfick"
 }
