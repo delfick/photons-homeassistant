@@ -1,4 +1,4 @@
-Photons interactor
+# Photons interactor
 ==================
 
 This addon will start an instance of the photons interactor daemon alongside the
