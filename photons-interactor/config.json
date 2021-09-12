@@ -1,15 +1,9 @@
 {
   "name": "Photons Interactor",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "slug": "photons_interactor",
   "description": "Run the Photons Interactor Daemon",
-  "arch": [
-    "amd64",
-    "aarch64",
-    "armhf",
-    "armv7",
-    "i386"
-  ],
+  "arch": ["amd64", "aarch64", "armhf", "armv7", "i386"],
   "host_network": true,
   "url": "https://photons.delfick.com/apps/interactor/homeassistant.html",
   "image": "delfick/lifx-photons-interactor-homeassistant"
