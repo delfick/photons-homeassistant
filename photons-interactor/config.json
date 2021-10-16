@@ -1,6 +1,6 @@
 {
   "name": "Photons Interactor",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "slug": "photons_interactor",
   "description": "Run the Photons Interactor Daemon",
   "arch": ["amd64", "aarch64", "armhf", "armv7", "i386"],
