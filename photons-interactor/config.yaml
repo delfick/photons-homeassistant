@@ -1,0 +1,19 @@
+name: "Photons Interactor"
+version: "0.12.5"
+slug: "photons_interactor"
+description: "Run the Photons Interactor Daemon"
+init: false
+map: ["config:rw"]
+environment:
+  INTERACTOR_HOST: "0.0.0.0"
+watchdog: "http://[HOST]:[PORT:6100]/v1/lifx/status"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+host_network: true
+url: "https://photons.delfick.com/apps/interactor/homeassistant.html"
+ports:
+  6100/tcp: 6100
