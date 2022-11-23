@@ -1,5 +1,5 @@
 name: "Photons Interactor"
-version: "0.12.5"
+version: "0.12.5b"
 slug: "photons_interactor"
 description: "Run the Photons Interactor Daemon"
 init: false
@@ -14,6 +14,10 @@ arch:
   - armv7
   - i386
 host_network: true
+schema:
+  silent: bool
+options:
+  silent: false
 url: "https://photons.delfick.com/apps/interactor/homeassistant.html"
 ports:
   6100/tcp: 6100
