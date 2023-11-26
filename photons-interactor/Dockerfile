@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 RUN apk add --no-cache python3 py3-pip gcc python3-dev musl-dev linux-headers g++
 
-RUN pip install lifx-photons-interactor==0.12.7
+RUN pip install lifx-photons-interactor==0.12.8
 
 WORKDIR /config/photons
 
