@@ -1,5 +1,5 @@
 name: "Photons Interactor"
-version: "0.16.2"
+version: "0.16.2.working2"
 slug: "photons_interactor"
 description: "Run the Photons Interactor Daemon"
 init: false
@@ -12,7 +12,6 @@ arch:
   - amd64
   - armhf
   - armv7
-  - i386
 host_network: true
 schema:
   silent: bool
