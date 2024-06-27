@@ -1,5 +1,5 @@
 name: "Photons Interactor"
-version: "0.16.3"
+version: "0.16.6"
 slug: "photons_interactor"
 description: "Run the Photons Interactor Daemon"
 init: false
