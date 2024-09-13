@@ -1,4 +1,4 @@
-FROM delfick/lifx-photons-interactor:0.16.7
+FROM delfick/lifx-photons-interactor:0.16.8
 
 # Adding bashio copied from https://github.com/hassio-addons/addon-debian-base/blob/7ada86a76d75422a040f6720cb4927d57a857298/base/Dockerfile
 
