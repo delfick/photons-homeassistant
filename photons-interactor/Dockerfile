@@ -33,7 +33,7 @@ RUN \
     \
     && apt-get install -y --no-install-recommends \
     jq=1.6-2.1 \
-    xz-utils=5.4.1-0.2 \
+    xz-utils=5.4.1-1 \
     \
     && c_rehash \
     \
